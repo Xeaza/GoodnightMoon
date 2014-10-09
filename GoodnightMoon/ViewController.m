@@ -62,9 +62,6 @@
                                             fromPoint:CGPointMake(-10, self.view.frame.size.height)
                                               toPoint:CGPointMake(self.view.frame.size.height - 20, self.view.frame.size.height)];
 
-    [self.collisionBehavior addBoundaryWithIdentifier:@"top"
-                                            fromPoint:CGPointMake(self.view.frame.size.height - 20, self.view.frame.size.height)
-                                              toPoint:CGPointMake(-10, self.view.frame.size.height)];
 
     self.collisionBehavior.collisionDelegate = self;
     [self.gravityBehavior setGravityDirection:CGVectorMake(0, 0)];
