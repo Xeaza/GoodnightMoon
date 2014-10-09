@@ -46,7 +46,7 @@
     [self.sunImages addObject:[UIImage imageNamed:@"sun_5"]];
     [self.sunImages addObject:[UIImage imageNamed:@"sun_6"]];
 
-    self.currentImages  = self.sunImages;
+    self.currentImages  = self.moonImages;
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -61,7 +61,6 @@
     [self.collisionBehavior addBoundaryWithIdentifier:@"bottom"
                                             fromPoint:CGPointMake(-10, self.view.frame.size.height)
                                               toPoint:CGPointMake(self.view.frame.size.height - 20, self.view.frame.size.height)];
-
 
     self.collisionBehavior.collisionDelegate = self;
     [self.gravityBehavior setGravityDirection:CGVectorMake(0, 0)];
