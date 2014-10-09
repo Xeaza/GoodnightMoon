@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EF52A919E6EA18004E0883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52A819E6EA18004E0883 /* main.m */; };
+		34EF52AC19E6EA18004E0883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52AB19E6EA18004E0883 /* AppDelegate.m */; };
+		34EF52AF19E6EA18004E0883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52AE19E6EA18004E0883 /* ViewController.m */; };
+		34EF52B219E6EA18004E0883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EF52B019E6EA18004E0883 /* Main.storyboard */; };
+		34EF52B419E6EA18004E0883 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EF52B319E6EA18004E0883 /* Images.xcassets */; };
+		34EF52B719E6EA18004E0883 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34EF52B519E6EA18004E0883 /* LaunchScreen.xib */; };
+		34EF52C319E6EA18004E0883 /* GoodnightMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52C219E6EA18004E0883 /* GoodnightMoonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34EF52BD19E6EA18004E0883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34EF529B19E6EA18004E0883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34EF52A219E6EA18004E0883;
+			remoteInfo = GoodnightMoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34EF52A319E6EA18004E0883 /* GoodnightMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodnightMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EF52A719E6EA18004E0883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EF52A819E6EA18004E0883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34EF52AA19E6EA18004E0883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34EF52AB19E6EA18004E0883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34EF52AD19E6EA18004E0883 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34EF52AE19E6EA18004E0883 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34EF52B119E6EA18004E0883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34EF52B319E6EA18004E0883 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34EF52B619E6EA18004E0883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34EF52BC19E6EA18004E0883 /* GoodnightMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodnightMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EF52C119E6EA18004E0883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EF52C219E6EA18004E0883 /* GoodnightMoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodnightMoonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EF52A019E6EA18004E0883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EF52B919E6EA18004E0883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34EF529A19E6EA18004E0883 = {
+			isa = PBXGroup;
+			children = (
+				34EF52A519E6EA18004E0883 /* GoodnightMoon */,
+				34EF52BF19E6EA18004E0883 /* GoodnightMoonTests */,
+				34EF52A419E6EA18004E0883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34EF52A419E6EA18004E0883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EF52A319E6EA18004E0883 /* GoodnightMoon.app */,
+				34EF52BC19E6EA18004E0883 /* GoodnightMoonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EF52A519E6EA18004E0883 /* GoodnightMoon */ = {
+			isa = PBXGroup;
+			children = (
+				34EF52AA19E6EA18004E0883 /* AppDelegate.h */,
+				34EF52AB19E6EA18004E0883 /* AppDelegate.m */,
+				34EF52AD19E6EA18004E0883 /* ViewController.h */,
+				34EF52AE19E6EA18004E0883 /* ViewController.m */,
+				34EF52B019E6EA18004E0883 /* Main.storyboard */,
+				34EF52B319E6EA18004E0883 /* Images.xcassets */,
+				34EF52B519E6EA18004E0883 /* LaunchScreen.xib */,
+				34EF52A619E6EA18004E0883 /* Supporting Files */,
+			);
+			path = GoodnightMoon;
+			sourceTree = "<group>";
+		};
+		34EF52A619E6EA18004E0883 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EF52A719E6EA18004E0883 /* Info.plist */,
+				34EF52A819E6EA18004E0883 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34EF52BF19E6EA18004E0883 /* GoodnightMoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				34EF52C219E6EA18004E0883 /* GoodnightMoonTests.m */,
+				34EF52C019E6EA18004E0883 /* Supporting Files */,
+			);
+			path = GoodnightMoonTests;
+			sourceTree = "<group>";
+		};
+		34EF52C019E6EA18004E0883 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34EF52C119E6EA18004E0883 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EF52A219E6EA18004E0883 /* GoodnightMoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EF52C619E6EA18004E0883 /* Build configuration list for PBXNativeTarget "GoodnightMoon" */;
+			buildPhases = (
+				34EF529F19E6EA18004E0883 /* Sources */,
+				34EF52A019E6EA18004E0883 /* Frameworks */,
+				34EF52A119E6EA18004E0883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodnightMoon;
+			productName = GoodnightMoon;
+			productReference = 34EF52A319E6EA18004E0883 /* GoodnightMoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34EF52BB19E6EA18004E0883 /* GoodnightMoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EF52C919E6EA18004E0883 /* Build configuration list for PBXNativeTarget "GoodnightMoonTests" */;
+			buildPhases = (
+				34EF52B819E6EA18004E0883 /* Sources */,
+				34EF52B919E6EA18004E0883 /* Frameworks */,
+				34EF52BA19E6EA18004E0883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34EF52BE19E6EA18004E0883 /* PBXTargetDependency */,
+			);
+			name = GoodnightMoonTests;
+			productName = GoodnightMoonTests;
+			productReference = 34EF52BC19E6EA18004E0883 /* GoodnightMoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EF529B19E6EA18004E0883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Taylor Wright-Sanson";
+				TargetAttributes = {
+					34EF52A219E6EA18004E0883 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					34EF52BB19E6EA18004E0883 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 34EF52A219E6EA18004E0883;
+					};
+				};
+			};
+			buildConfigurationList = 34EF529E19E6EA18004E0883 /* Build configuration list for PBXProject "GoodnightMoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EF529A19E6EA18004E0883;
+			productRefGroup = 34EF52A419E6EA18004E0883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EF52A219E6EA18004E0883 /* GoodnightMoon */,
+				34EF52BB19E6EA18004E0883 /* GoodnightMoonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EF52A119E6EA18004E0883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF52B219E6EA18004E0883 /* Main.storyboard in Resources */,
+				34EF52B719E6EA18004E0883 /* LaunchScreen.xib in Resources */,
+				34EF52B419E6EA18004E0883 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EF52BA19E6EA18004E0883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EF529F19E6EA18004E0883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF52AF19E6EA18004E0883 /* ViewController.m in Sources */,
+				34EF52AC19E6EA18004E0883 /* AppDelegate.m in Sources */,
+				34EF52A919E6EA18004E0883 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EF52B819E6EA18004E0883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF52C319E6EA18004E0883 /* GoodnightMoonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34EF52BE19E6EA18004E0883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34EF52A219E6EA18004E0883 /* GoodnightMoon */;
+			targetProxy = 34EF52BD19E6EA18004E0883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34EF52B019E6EA18004E0883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EF52B119E6EA18004E0883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34EF52B519E6EA18004E0883 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34EF52B619E6EA18004E0883 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34EF52C419E6EA18004E0883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34EF52C519E6EA18004E0883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EF52C719E6EA18004E0883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodnightMoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34EF52C819E6EA18004E0883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodnightMoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34EF52CA19E6EA18004E0883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoodnightMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodnightMoon.app/GoodnightMoon";
+			};
+			name = Debug;
+		};
+		34EF52CB19E6EA18004E0883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoodnightMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodnightMoon.app/GoodnightMoon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EF529E19E6EA18004E0883 /* Build configuration list for PBXProject "GoodnightMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EF52C419E6EA18004E0883 /* Debug */,
+				34EF52C519E6EA18004E0883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EF52C619E6EA18004E0883 /* Build configuration list for PBXNativeTarget "GoodnightMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EF52C719E6EA18004E0883 /* Debug */,
+				34EF52C819E6EA18004E0883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34EF52C919E6EA18004E0883 /* Build configuration list for PBXNativeTarget "GoodnightMoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EF52CA19E6EA18004E0883 /* Debug */,
+				34EF52CB19E6EA18004E0883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EF529B19E6EA18004E0883 /* Project object */;
+}
