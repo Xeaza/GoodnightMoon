@@ -14,6 +14,7 @@
 		34EF52B419E6EA18004E0883 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EF52B319E6EA18004E0883 /* Images.xcassets */; };
 		34EF52B719E6EA18004E0883 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34EF52B519E6EA18004E0883 /* LaunchScreen.xib */; };
 		34EF52C319E6EA18004E0883 /* GoodnightMoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52C219E6EA18004E0883 /* GoodnightMoonTests.m */; };
+		34EF52CE19E6F245004E0883 /* CollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EF52CD19E6F245004E0883 /* CollectionViewImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		34EF52BC19E6EA18004E0883 /* GoodnightMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodnightMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EF52C119E6EA18004E0883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EF52C219E6EA18004E0883 /* GoodnightMoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodnightMoonTests.m; sourceTree = "<group>"; };
+		34EF52CC19E6F245004E0883 /* CollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewImageCell.h; sourceTree = "<group>"; };
+		34EF52CD19E6F245004E0883 /* CollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				34EF52AB19E6EA18004E0883 /* AppDelegate.m */,
 				34EF52AD19E6EA18004E0883 /* ViewController.h */,
 				34EF52AE19E6EA18004E0883 /* ViewController.m */,
+				34EF52CC19E6F245004E0883 /* CollectionViewImageCell.h */,
+				34EF52CD19E6F245004E0883 /* CollectionViewImageCell.m */,
 				34EF52B019E6EA18004E0883 /* Main.storyboard */,
 				34EF52B319E6EA18004E0883 /* Images.xcassets */,
 				34EF52B519E6EA18004E0883 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				34EF52AF19E6EA18004E0883 /* ViewController.m in Sources */,
 				34EF52AC19E6EA18004E0883 /* AppDelegate.m in Sources */,
+				34EF52CE19E6F245004E0883 /* CollectionViewImageCell.m in Sources */,
 				34EF52A919E6EA18004E0883 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
